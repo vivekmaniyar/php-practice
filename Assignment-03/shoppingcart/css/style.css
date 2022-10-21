@@ -1,0 +1,120 @@
+/* CSS style for form class and its elements */
+.form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    margin-top: 100px;
+}
+
+.form h1 {
+    text-align: center;
+    color: #666;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.form input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form input[type="submit"] {
+    background: #4CAF50;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background: #45a049;
+}
+
+.form input[type="submit"]:active {
+    background: #45a049;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.form input[type="text"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="text"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="password"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="password"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="email"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="email"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="tel"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="tel"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="date"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="date"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="number"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="number"]:focus {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="file"] {
+    background: #fff;
+    color: #555;
+}
+
+.form input[type="file"]:focus {
+    background: #fff;
+    color: #555;
+}
+
