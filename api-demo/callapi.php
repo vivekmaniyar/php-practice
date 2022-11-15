@@ -3,7 +3,7 @@
 header("Access-Control-Allow-Origin: *");
 $curl = curl_init();
 
-$params=["name"=>"Prathana Patel","username"=>"prathana","password"=>"prathana@123","email"=>"prathana@mail.com"];
+$params=["name"=>"xyz","username"=>"xyz123","password"=>"xyz@123","email"=>"xyz@mail.com"];
 
 curl_setopt_array($curl,[
     CURLOPT_URL=>"https://sea-turtle-app-ckm8k.ondigitalocean.app/users/register",
